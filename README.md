@@ -1,2 +1,2 @@
 # brentfreedmusic
-Brent's 1 page personal site
+Brent's Personal Site

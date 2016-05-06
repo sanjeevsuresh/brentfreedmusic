@@ -129,7 +129,7 @@ blockquote {
 }
 .contact, .contact li {
 	list-style: none;
-	padding-right: 25px;
+	padding-right: 10px;
 	margin-left: 0;
 	color: #aaa;
 	display: inline;
@@ -141,6 +141,7 @@ blockquote {
 	border-top: 1px solid #393939;
 	border-bottom: none;
 	background-color: black;
+	overflow: visible;
 }
 .footer-bar, .top-bar li {
 	background-color: black;

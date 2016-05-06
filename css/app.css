@@ -1,0 +1,148 @@
+html, body {
+	background-color: black;
+}
+.top-bar {
+	border-bottom: 1px solid #393939;
+	overflow: hidden;
+}
+.top-bar, .top-bar li {
+	background-color: #1b1b1b;
+	height: 86px;
+}
+/*.top-bar, li a {
+	color: blue;
+}*/
+.top-bar, li a {
+	font-family: 'Open Sans', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	font-size: 14px;
+	line-height: 86px;
+	font-weight: 800;
+	text-transform: uppercase;
+	color: #fff;
+}
+.top-bar li a:hover {
+	color: #107fc9;
+}
+.top-bar-title {
+	margin-left: 0%;
+	font-size: 18px;
+}
+.quote {
+	font-family: 'Open Sans', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	font-style: italic;
+	color: #666666;
+}
+.author {
+	padding-left: 50%;
+	font-family: 'Open Sans', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 800;
+	font-style: italic;
+	color: #107fc9;
+}
+.banner {
+	width: 100%;
+	margin: auto;
+	max-width: initial;
+	background:
+	linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+	linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+	linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+	linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+	linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+	linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+	background-color: #131313;
+	background-size: 20px 20px; 
+/*	background-image: url("../footer_lodyas/footer_lodyas.png");
+*/}
+hr {
+	color: transparent;
+	border-color: rgb(57, 57, 57);
+	width: 80%;
+}
+.artists {
+	width: 80%;
+}
+.entry-heading::before{
+	content: " ";
+    width: 48px;
+    height: 4px;
+    display: block;
+    background-color: #107fc9;
+    margin-bottom: 15px;
+}
+blockquote {
+	quotes: none;
+	border: 0;
+}
+.section-right {
+	font-family: 'Open Sans', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 800;
+	color: #fff;
+}
+.mission {
+	padding-top: 5%;
+	font-family: 'Open Sans', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	font-size: 48px;
+	line-height: 58px;
+	font-weight: 800;
+/*	color: #fa4c29; /* orange */
+	color: #107fc9;
+}
+.references {
+	color: #aaa;
+}
+.main {
+	padding-top: 5%;
+}
+.colleges, .colleges li {
+	list-style: none;
+	padding-left: 0;
+	margin-left: 0;
+	color: #aaa;
+}
+.section-title, .section-text {
+	font-family: 'Open Sans', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+}
+
+.section-title {
+	font-size: 24px;
+	line-height: 34px;
+	font-weight: 800;
+	color: #fff;
+}
+.section-right, .section-title {
+	text-transform: uppercase;
+}
+.section-text {
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400px;
+	color: #aaa;
+
+}
+.contact, .contact li {
+	list-style: none;
+	padding-right: 25px;
+	margin-left: 0;
+	color: #aaa;
+	display: inline;
+}
+#contact {
+	padding-top: 75px;
+}
+.footer-bar {
+	border-top: 1px solid #393939;
+	border-bottom: none;
+	background-color: black;
+}
+.footer-bar, .top-bar li {
+	background-color: black;
+	height: 86px;
+}
